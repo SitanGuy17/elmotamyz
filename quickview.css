@@ -1,0 +1,80 @@
+.popup {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+    background: #fff;
+
+    top:0;
+    left:0;
+
+    display: flex;
+    
+    padding:2vh;
+
+    transition: .4s;
+}
+
+
+.popup-back {position: absolute;
+height: 100vh;
+width: 100vw;
+
+top: 0;
+left: 0;
+
+display: flex;
+
+background: #0e0e0e95;
+}
+.popup-inner {
+    background: #fff;
+
+    height: fit-content;
+    width: fit-content;
+
+    display: flex;
+    
+    margin: auto;
+    padding:2vh;
+}
+.popup-inner div {
+    background-color: #0e0e0e00;
+
+    height: 30rem;
+    width: 30rem;
+
+    margin:auto;
+    padding: 1rem;
+}
+.popup-inner img {
+    background-color: #0e0e0e;
+    width: 100%;
+    height: 100%;
+}
+.popup-inner h2 {
+    font-size: 6vh;
+    text-align: right;
+}
+.popup-inner p {
+    font-size: 4vh;
+    text-align: right;
+    text-align-last: right;
+    overflow: visible;
+}
+.popup-close {
+    background-image: url(https://img.icons8.com/small/16/000000/back.png);background-repeat: no-repeat;
+
+    position: absolute;
+
+    height: 50rem;
+    width: 50rem;
+
+    z-index: 4;
+
+    top: 1;
+    left: 1;
+
+    margin-left:-6px;
+    margin-top:-6px;
+}

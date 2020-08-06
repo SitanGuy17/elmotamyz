@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="quickview.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <script src="quickview.js"></script>
+    <script src="products.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=aref-ruqaa" />
+
+    <title>شركة المتميز للعقارات</title>
+</head>
+<body>
+
+<div class="container-1">
+
+    <div class="main">
+        <h1>شركة   المتميز</h1>
+        <h1>إسم  علي مسمي ,</h1>
+        <h2>بعض التفاصيل</h2>
+        <h3>يمكنك الاتصال بنا للاستفسار علي الارقام التاليه</h3>
+        <h3>0561499762 - 0561499762</h3>
+
+        
+        <div class="footer">
+            <a href="https://www.facebook.com/fady.osama.946">
+                <img class="img-s2" src="https://firebasestorage.googleapis.com/v0/b/vampire-server.appspot.com/o/facebook.png?alt=media&token=c178444e-02b9-4aa9-9cba-8fc1fe1443c7">
+            </a>
+            <a href="https://www.instagram.com/ajman_realeste/">
+                <img class="img-s2" src="https://firebasestorage.googleapis.com/v0/b/vampire-server.appspot.com/o/instagram.png?alt=media&token=cac10e48-0d8b-4aa7-9241-edf3292627c4">
+            </a>
+        </div>
+    </div>
+    <div class="optians">
+
+        <h3>:مقترحات</h3>
+        <div class="row" id="row">
+            <a href="" class="box"></a>
+            <a href="" class="box"></a>
+            <a href="" class="box"></a>
+
+            <a href="" class="box">last</a>
+
+            
+            
+
+        </div>
+        <div class="btns">            
+            <button  onclick="rowscrolldown()"><img src="https://img.icons8.com/ios/26/000000/expand-arrow--v2.png"/>
+            </button>
+            <button  onclick="rowscrollup()"><img src="https://img.icons8.com/ios/26/000000/collapse-arrow--v2.png"/>
+            </button>
+            <script>
+                var row = document.getElementById('row');
+                function rowscrollup() {
+                    console.log("upworks");
+                    row.scroll(0, row.scrollTop -300);
+                }
+                function rowscrolldown() {
+                    console.log("downworks");
+                    row.scrollTo(0, row.scrollTop +300);
+                }
+                </script>
+        </div>
+    </div> 
+</div>
+
+
+
+<div id="place" onclick="removeD1()"></div>
+<script></script>
+
+</body>
